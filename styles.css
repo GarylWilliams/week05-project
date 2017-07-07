@@ -1,0 +1,109 @@
+
+* {
+  margin: 0;
+}
+
+h1 {
+  color: goldenrod;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 60px 15px 15px 15px;
+  text-align: center;
+}
+
+
+h2 {
+  color: blue;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+    text-align: center; 
+
+}
+body {
+  background-image: url('wildwest.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+input.start-game-submit {
+  background-color: rgba(33, 69, 127, 0.5);
+  border-radius: 10px;
+  color: blue;
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 15px;
+  width: 65px;
+}
+
+
+.game-section {
+  display: flex;
+  justify-content: center;
+}
+
+.game-box {
+  background-color: rgba(36, 33, 58, 0.8);
+  border: 1px solid LightGray;
+  border-radius: 25px;
+  height: 35vw;
+  margin-top: 20px;
+  width: 65vw;
+}
+
+.game-box h3 {
+  color: LightGray;
+  font-family: sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+.game-box p {
+  color: LightGray;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#user-input {
+  background-color: inherit;
+  border: none;
+  color: White;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.form span {
+  color: LightGray;
+  font-family: sans-serif;
+}
+
+.letters-guessed {
+  color: LightGray;
+  margin-left: 5px;
+}
+
+.random-word {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}

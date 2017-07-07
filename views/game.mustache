@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mystery Word</title>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+    <h1>Mystery Word Game</h1>
+
+    <section class="game-section">
+    <div class="game-box">
+      <h3>Welcome to Mystery Word!</h3>
+      <p>You will be guessing a word from a collection of totally random (and REALLYhard) words.</p>
+      <p>Whenever you're ready, let's roll</P>
+      <br>
+      <br>
+        <form class="form" method="post">
+          <input id="user-input" autofocus="true" maxlength="1" name="userInput" placeholder="enter a letter">
+        <div class="letters-guessed">
+        <span>Letters Guessed:<br></span>
+        {{#lettersGuessed}}
+        {{#.}}
+        <span>{{.}}</span>
+        {{/.}}
+        {{/lettersGuessed}}
+        </div>
+        <br>
+        <div class="random-word">
+          <span>{{randomWord}}</span>
+        </div>
+        </form>
+    </div>
+    </section>
+
+ 
+  </body>
+</html>
